@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb61a584-699c-4b9f-9288-dfed5207e010" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\developer  kits\apache-maven-3.6.1\localRepository" />
+        <option name="mavenHome" value="D:/developer  kits/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aFEby6WqNc5F4OIRgbOqYb1cNq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/developer  kits/jdk1.8/lib/tools.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.carroll.Main" />
+      <module name="JavaSourcesLearn" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carroll.test.hashmap.Test" />
+      <module name="JavaSourcesLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.carroll.test.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb61a584-699c-4b9f-9288-dfed5207e010" name="Default Changelist" comment="" />
+      <created>1586323016412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586323016412</updated>
+      <workItem from="1586323017832" duration="4874000" />
+      <workItem from="1586331322221" duration="29000" />
+      <workItem from="1586331372069" duration="183000" />
+      <workItem from="1586331557665" duration="576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="609" y="178" key="FileChooserDialogImpl" timestamp="1586325077160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="609" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586325077160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586332135092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586332135092" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586332135091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586332135091" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586332135088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586332135088" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586332135091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586332135091" />
+    <state width="1493" height="228" key="GridCell.Tab.1.bottom" timestamp="1586331215353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586331215353" />
+    <state width="1493" height="228" key="GridCell.Tab.1.center" timestamp="1586331215353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586331215353" />
+    <state width="1493" height="228" key="GridCell.Tab.1.left" timestamp="1586331215353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586331215353" />
+    <state width="1493" height="228" key="GridCell.Tab.1.right" timestamp="1586331215353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586331215353" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1586325456396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586325456396" />
+  </component>
+</project>
