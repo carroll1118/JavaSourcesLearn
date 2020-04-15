@@ -2420,7 +2420,9 @@ public class Collections {
             synchronized (mutex) {return list.set(index, element);}
         }
         public void add(int index, E element) {
-            synchronized (mutex) {list.add(index, element);}
+            synchronized (mutex) {
+                list.add(index, element);
+            }
         }
         public E remove(int index) {
             synchronized (mutex) {return list.remove(index);}

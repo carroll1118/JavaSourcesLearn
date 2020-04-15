@@ -99,7 +99,7 @@ public class HashSet<E>
 
     /**
      * Constructs a new, empty set; the backing <tt>HashMap</tt> instance has
-     * default initial capacity (16) and load factor (0.75).
+     * default initial capacity(n. 能力；容量) (16) and load factor (0.75).
      */
     public HashSet() {
         map = new HashMap<>();
@@ -205,6 +205,7 @@ public class HashSet<E>
 
     /**
      * Adds the specified element to this set if it is not already present.
+     * 如果指定的元素在集合中尚未出现，则将其添加到此集合。
      * More formally, adds the specified element <tt>e</tt> to this set if
      * this set contains no element <tt>e2</tt> such that
      * <tt>(e==null&nbsp;?&nbsp;e2==null&nbsp;:&nbsp;e.equals(e2))</tt>.

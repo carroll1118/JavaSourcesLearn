@@ -96,6 +96,9 @@ public class CopyOnWriteArrayList<E>
     final transient ReentrantLock lock = new ReentrantLock();
 
     /** The array, accessed only via getArray/setArray. */
+    /*
+     * volatile关键字修饰，保证了可见性，不保证原子性，禁止指令重排
+     * */
     private transient volatile Object[] array;
 
     /**
@@ -426,13 +429,14 @@ public class CopyOnWriteArrayList<E>
 
     /**
      * Appends the specified element to the end of this list.
+     * 添加一个指定的元素到列表的尾部
      *
      * @param e element to be appended to this list
      * @return {@code true} (as specified by {@link Collection#add})
      */
     public boolean add(E e) {
         final ReentrantLock lock = this.lock;
-        lock.lock();
+        lock.lock();  //加锁
         try {
             Object[] elements = getArray();
             int len = elements.length;
@@ -441,7 +445,7 @@ public class CopyOnWriteArrayList<E>
             setArray(newElements);
             return true;
         } finally {
-            lock.unlock();
+            lock.unlock(); //释放锁
         }
     }
 

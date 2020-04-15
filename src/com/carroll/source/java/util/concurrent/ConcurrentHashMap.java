@@ -819,6 +819,7 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
 
     /**
      * Creates a new, empty map with the default initial table size (16).
+     * 创建一个新的map,初始默认大小为16
      */
     public ConcurrentHashMap() {
     }

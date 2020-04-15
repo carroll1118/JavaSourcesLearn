@@ -60,6 +60,7 @@ public class AtomicInteger extends Number implements java.io.Serializable {
 
     static {
         try {
+            //Field[] getDeclaredFields()：获取所有的成员变量，不考虑修饰符
             valueOffset = unsafe.objectFieldOffset
                 (AtomicInteger.class.getDeclaredField("value"));
         } catch (Exception ex) { throw new Error(ex); }
@@ -77,7 +78,8 @@ public class AtomicInteger extends Number implements java.io.Serializable {
     }
 
     /**
-     * Creates a new AtomicInteger with initial value {@code 0}.
+     * Creates a new AtomicInteger with initial(初始) value {@code 0}.
+     * 创建一个具有初始值的新AtomicInteger
      */
     public AtomicInteger() {
     }
@@ -150,16 +152,19 @@ public class AtomicInteger extends Number implements java.io.Serializable {
     }
 
     /**
-     * Atomically increments by one the current value.
+     * Atomically increments by one the current(adj.现在的，当前的) value.
+     * 原子的增加一个当前值
      *
      * @return the previous value
      */
     public final int getAndIncrement() {
+        //valueOffset:当前对象中值的偏移量，近似的认为地址值。
         return unsafe.getAndAddInt(this, valueOffset, 1);
     }
 
     /**
-     * Atomically decrements by one the current value.
+     * Atomically decrements(缩减，减少) by one the current value.
+     * 原子的减少一个当前值
      *
      * @return the previous value
      */

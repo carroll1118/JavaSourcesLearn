@@ -119,15 +119,15 @@ public class ArrayList<E> extends AbstractList<E>
     private static final Object[] EMPTY_ELEMENTDATA = {};
 
     /**
-     * Shared empty array instance used for default sized empty instances. We
-     * distinguish this from EMPTY_ELEMENTDATA to know how much to inflate when
+     * Shared empty array instance(n. 实例；情况；建议) used for default sized empty instances. We
+     * distinguish(v.区别，区分；辨别) this from EMPTY_ELEMENTDATA to know how much to inflate when
      * first element is added.
      */
     private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
 
     /**
-     * The array buffer into which the elements of the ArrayList are stored.
-     * The capacity of the ArrayList is the length of this array buffer. Any
+     * The array buffer(缓冲) into which the elements of the ArrayList are stored.
+     * The capacity(n. 能力；容量；资格，地位；生产力) of the ArrayList is the length of this array buffer. Any
      * empty ArrayList with elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA
      * will be expanded to DEFAULT_CAPACITY when the first element is added.
      */
@@ -449,8 +449,8 @@ public class ArrayList<E> extends AbstractList<E>
     }
 
     /**
-     * Appends the specified element to the end of this list.
-     *
+     * Appends the specified(adj.规定的，指定的) element to the end of this list.
+     * 添加一个指定的元素到列表的尾部
      * @param e element to be appended to this list
      * @return <tt>true</tt> (as specified by {@link Collection#add})
      */
