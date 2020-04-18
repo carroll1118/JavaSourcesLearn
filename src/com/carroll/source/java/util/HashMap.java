@@ -335,6 +335,8 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      */
     static final int hash(Object key) {
         int h;
+        // h = key.hashCode() 为第一步 取hashCode值
+        // h ^ (h >>> 16)  为第二步 高位参与运算
         return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
     }
 
@@ -403,6 +405,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
     /**
      * The number of key-value mappings contained in this map.
      */
+    //HashMap中实际存在的键值对数量
     transient int size;
 
     /**
@@ -412,6 +415,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * rehash).  This field is used to make iterators on Collection-views of
      * the HashMap fail-fast.  (See ConcurrentModificationException).
      */
+    //modCount字段主要用来记录HashMap内部结构发生变化的次数
     transient int modCount;
 
     /**
@@ -423,6 +427,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
     // Additionally, if the table array has not been allocated, this
     // field holds the initial array capacity, or zero signifying
     // DEFAULT_INITIAL_CAPACITY.)
+    //threshold：扩容的阈值，threshold 等于 capacity * loadFactor
     int threshold;
 
     /**
@@ -627,7 +632,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
         Node<K,V>[] tab; Node<K,V> p; int n, i;
         if ((tab = table) == null || (n = tab.length) == 0)
             n = (tab = resize()).length;
-        if ((p = tab[i = (n - 1) & hash]) == null)
+        if ((p = tab[i = (n - 1) & hash]) == null)  // 如果没有hash碰撞则直接插入元素,多线程环境下，这儿可能会出现数据覆盖问题
             tab[i] = newNode(hash, key, value, null);
         else {
             Node<K,V> e; K k;
@@ -659,6 +664,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
             }
         }
         ++modCount;
+        //threshold：扩容的阈值，等于 capacity * loadFactor
         if (++size > threshold)
             resize();
         afterNodeInsertion(evict);

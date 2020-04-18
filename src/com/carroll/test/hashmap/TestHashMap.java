@@ -12,9 +12,9 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class TestHashMap {
     public static void main(String[] args) {
-        //Map<String,Integer> map = new HashMap<>();
+        HashMap<String,Integer> map = new HashMap<>();
         //Map<String,Integer> map = Collections.synchronizedMap(new HashMap<>());
-        Map<String,Integer> map = new ConcurrentHashMap<>();
+        //Map<String,Integer> map = new ConcurrentHashMap<>();
         map.put("carroll",20);
         System.out.println(map);
     }

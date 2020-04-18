@@ -767,8 +767,10 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
     /* ---------------- Fields -------------- */
 
     /**
-     * The array of bins. Lazily initialized upon first insertion.
-     * Size is always a power of two. Accessed directly by iterators.
+     * The array of bins(n. 箱子). Lazily initialized upon first insertion(n. 插入).
+     * Size is always a power of two. Accessed directly(adv. 直接地) by iterators.
+     *
+     * transient(adj. 短暂的；路过的)
      */
     transient volatile Node<K,V>[] table;
 
@@ -785,10 +787,10 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
     private transient volatile long baseCount;
 
     /**
-     * Table initialization and resizing control.  When negative, the
+     * Table initialization and resizing(v. 改变大小) control.  When negative(adj.消极的,否定的), the
      * table is being initialized or resized: -1 for initialization,
      * else -(1 + the number of active resizing threads).  Otherwise,
-     * when table is null, holds the initial table size to use upon
+     * when table is null, holds(n. 保留；线索；v. 把握) the initial table size to use upon
      * creation, or 0 for default. After initialization, holds the
      * next element count value upon which to resize the table.
      */
@@ -992,10 +994,11 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
 
     /**
      * Maps the specified key to the specified value in this table.
+     *  将指定的键映射到此表中的指定值。
      * Neither the key nor the value can be null.
-     *
-     * <p>The value can be retrieved by calling the {@code get} method
-     * with a key that is equal to the original key.
+     *  键和值都不能为空。
+     * <p>The value can be retrieved(v.恢复) by calling the {@code get} method
+     * with a key that is equal to the original(adj. 原来的；开始的；首创的) key.
      *
      * @param key key with which the specified value is to be associated
      * @param value value to be associated with the specified key
@@ -1010,12 +1013,12 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
     /** Implementation for put and putIfAbsent */
     final V putVal(K key, V value, boolean onlyIfAbsent) {
         if (key == null || value == null) throw new NullPointerException();
-        int hash = spread(key.hashCode());
+        int hash = spread(key.hashCode());  //计算key(键)的hash值
         int binCount = 0;
         for (Node<K,V>[] tab = table;;) {
             Node<K,V> f; int n, i, fh;
             if (tab == null || (n = tab.length) == 0)
-                tab = initTable();
+                tab = initTable();  //初始化表
             else if ((f = tabAt(tab, i = (n - 1) & hash)) == null) {
                 if (casTabAt(tab, i, null,
                              new Node<K,V>(hash, key, value, null)))
@@ -2226,14 +2229,16 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
         while ((tab = table) == null || tab.length == 0) {
             if ((sc = sizeCtl) < 0)
                 Thread.yield(); // lost initialization race; just spin
+            //compareAndSwapInt   CAS,比较并交换
             else if (U.compareAndSwapInt(this, SIZECTL, sc, -1)) {
                 try {
                     if ((tab = table) == null || tab.length == 0) {
+                          //   DEFAULT_CAPACITY = 16;
                         int n = (sc > 0) ? sc : DEFAULT_CAPACITY;
                         @SuppressWarnings("unchecked")
                         Node<K,V>[] nt = (Node<K,V>[])new Node<?,?>[n];
                         table = tab = nt;
-                        sc = n - (n >>> 2);
+                        sc = n - (n >>> 2);  //n = 16   sc = 8
                     }
                 } finally {
                     sizeCtl = sc;
