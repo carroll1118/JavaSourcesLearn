@@ -188,7 +188,7 @@ import sun.net.spi.nameservice.*;
 public
 class InetAddress implements java.io.Serializable {
     /**
-     * Specify the address family: Internet Protocol, Version 4
+     * Specify(n,指定) the address family: Internet Protocol, Version 4
      * @since 1.4
      */
     static final int IPv4 = 1;
@@ -199,7 +199,7 @@ class InetAddress implements java.io.Serializable {
      */
     static final int IPv6 = 2;
 
-    /* Specify address family preference */
+    /* Specify address family preference(n. 偏爱，倾向；优先权) */
     static transient boolean preferIPv6Address = false;
 
     static class InetAddressHolder {

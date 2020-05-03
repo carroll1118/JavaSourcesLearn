@@ -40,13 +40,13 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
 /**
- * The {@code String} class represents character strings. All
+ * The {@code String} class represents(代表，表示) character strings. All
  * string literals in Java programs, such as {@code "abc"}, are
- * implemented as instances of this class.
+ * implemented(实施，执行) as instances of this class.
  * <p>
- * Strings are constant; their values cannot be changed after they
- * are created. String buffers support mutable strings.
- * Because String objects are immutable they can be shared. For example:
+ * Strings are constant(n.常量，adj.不变的，恒定的); their values cannot be changed after they
+ * are created. String buffers support mutable(adj. 可变的，易变的) strings.
+ * Because String objects are immutable(adj. 不可变的，固定的) they can be shared. For example:
  * <blockquote><pre>
  *     String str = "abc";
  * </pre></blockquote><p>
@@ -107,10 +107,10 @@ import java.util.regex.PatternSyntaxException;
  * @see     java.nio.charset.Charset
  * @since   JDK1.0
  */
-
+/*final类不能被继承，没有子类，final类中的方法默认是final的。 */
 public final class String
     implements java.io.Serializable, Comparable<String>, CharSequence {
-    /** The value is used for character storage. */
+    /** The value is used for character(性格，品质，字符) storage(存储). */
     private final char value[];
 
     /** Cache the hash code for the string */

@@ -632,7 +632,8 @@ public class HashMap<K,V> extends AbstractMap<K,V>
         Node<K,V>[] tab; Node<K,V> p; int n, i;
         if ((tab = table) == null || (n = tab.length) == 0)
             n = (tab = resize()).length;
-        if ((p = tab[i = (n - 1) & hash]) == null)  // 如果没有hash碰撞则直接插入元素,多线程环境下，这儿可能会出现数据覆盖问题
+        // 如果没有hash碰撞则直接插入元素,多线程环境下，这儿可能会出现数据覆盖问题
+        if ((p = tab[i = (n - 1) & hash]) == null)
             tab[i] = newNode(hash, key, value, null);
         else {
             Node<K,V> e; K k;

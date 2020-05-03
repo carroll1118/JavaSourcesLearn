@@ -132,6 +132,7 @@ public class AtomicInteger extends Number implements java.io.Serializable {
      * the actual value was not equal to the expected value.
      */
     public final boolean compareAndSet(int expect, int update) {
+        //compareAndSwapInt   比较并交换   CAS  乐观锁
         return unsafe.compareAndSwapInt(this, valueOffset, expect, update);
     }
 
