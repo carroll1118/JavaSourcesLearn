@@ -2,6 +2,7 @@ package com.carroll.test.hashset;
 
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 
@@ -16,8 +17,9 @@ public class testHashSet {
         * HashSet底层是HashMap.
         * */
         //Set<Integer> set = new HashSet<>();
+        Set<Integer> set = new LinkedHashSet<>();
         //Set<Integer> set = Collections.synchronizedSet(new HashSet<>());
-        Set<Integer> set = new CopyOnWriteArraySet<>();
+        //Set<Integer> set = new CopyOnWriteArraySet<>();
         set.add(8);
         set.remove(8);
         System.out.println(set);

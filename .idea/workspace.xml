@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb61a584-699c-4b9f-9288-dfed5207e010" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/net/InetAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/net/InetAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/util/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/util/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/atomic/AtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/atomic/AtomicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/test/execute/TestExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/test/execute/TestExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/test/hashset/testHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/test/hashset/testHashSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +156,7 @@
       <workItem from="1587688032839" duration="23000" />
       <workItem from="1588499403788" duration="1825000" />
       <workItem from="1589347683338" duration="7000" />
+      <workItem from="1589723026555" duration="1869000" />
     </task>
     <servers />
   </component>
@@ -219,16 +216,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587034869910" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/carroll/test/hashset/testHashSet.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
