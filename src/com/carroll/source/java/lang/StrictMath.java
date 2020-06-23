@@ -629,6 +629,7 @@ public final class StrictMath {
      * @param   b   the exponent.
      * @return  the value {@code a}<sup>{@code b}</sup>.
      */
+    //native 方法    JVM虚拟机中 本地方法栈  就是native方法
     public static native double pow(double a, double b);
 
     /**

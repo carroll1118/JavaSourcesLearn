@@ -9,5 +9,6 @@ package com.carroll.test.string;
 public class TestString {
     public static void main(String[] args) {
         String string = new String();
+        //System.out.println("---------");
     }
 }

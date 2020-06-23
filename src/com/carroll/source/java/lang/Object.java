@@ -461,18 +461,18 @@ public class Object {
     }
 
     /**
-     * Causes the current thread to wait until another thread invokes the
+     * Causes the current thread to wait until another thread invokes(唤起，引起) the
      * {@link java.lang.Object#notify()} method or the
      * {@link java.lang.Object#notifyAll()} method for this object.
-     * In other words, this method behaves exactly as if it simply
+     * In other words(换言之), this method behaves(表现) exactly as if it simply
      * performs the call {@code wait(0)}.
      * <p>
      * The current thread must own this object's monitor. The thread
-     * releases ownership of this monitor and waits until another thread
+     * releases(释放；豁免) ownership of this monitor and waits until another thread
      * notifies threads waiting on this object's monitor to wake up
      * either through a call to the {@code notify} method or the
      * {@code notifyAll} method. The thread then waits until it can
-     * re-obtain ownership of the monitor and resumes execution.
+     * re-obtain ownership of the monitor and resumes(恢复) execution.
      * <p>
      * As in the one argument version, interrupts and spurious wakeups are
      * possible, and this method should always be used in a loop:

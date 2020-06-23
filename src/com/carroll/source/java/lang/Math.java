@@ -640,6 +640,7 @@ public final class Math {
      * @param   b   the exponent.
      * @return  the value {@code a}<sup>{@code b}</sup>.
      */
+    //注意：pow方法 传入的参数为double类型
     public static double pow(double a, double b) {
         return StrictMath.pow(a, b); // default impl. delegates to StrictMath
     }

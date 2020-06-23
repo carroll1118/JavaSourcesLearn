@@ -264,11 +264,11 @@ class Thread implements Runnable {
     public static native Thread currentThread();
 
     /**
-     * A hint to the scheduler that the current thread is willing to yield
+     * A hint(暗示；线索) to the scheduler that the current thread is willing to yield
      * its current use of a processor. The scheduler is free to ignore this
      * hint.
      *
-     * <p> Yield is a heuristic attempt to improve relative progression
+     * <p> Yield is a heuristic(启发式的；探索的) attempt to improve relative progression
      * between threads that would otherwise over-utilise a CPU. Its use
      * should be combined with detailed profiling and benchmarking to
      * ensure that it actually has the desired effect.
@@ -282,10 +282,10 @@ class Thread implements Runnable {
     public static native void yield();
 
     /**
-     * Causes the currently executing thread to sleep (temporarily cease
-     * execution) for the specified number of milliseconds, subject to
-     * the precision and accuracy of system timers and schedulers. The thread
-     * does not lose ownership of any monitors.
+     * Causes the currently executing(执行) thread to sleep (temporarily(临时地) cease(停止；结束)
+     * execution) for the specified(规定的,指定的) number of milliseconds, subject to
+     * the precision(精密的，精确的) and accuracy of system timers and schedulers. The thread
+     * does not lose ownership(所有权) of any monitors.
      *
      * @param  millis
      *         the length of time to sleep in milliseconds

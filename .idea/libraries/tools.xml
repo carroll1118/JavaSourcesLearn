@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="tools">
     <CLASSES>
-      <root url="jar://D:/developer  kits/jdk1.8/lib/tools.jar!/" />
+      <root url="jar://D:/developerkits/jdk1.8/lib/tools.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://D:/developer  kits/jdk1.8/lib/tools.jar!/" />
+      <root url="jar://D:/developerkits/jdk1.8/lib/tools.jar!/" />
     </SOURCES>
   </library>
 </component>
