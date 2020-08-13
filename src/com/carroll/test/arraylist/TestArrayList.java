@@ -13,10 +13,10 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 public class TestArrayList {
     public static void main(String[] args) {
-        // ArrayList<Integer> list = new ArrayList<>();
+         ArrayList<Integer> list = new ArrayList<>();
         //List<Integer> list = new Vector<>();
         //List<Integer> list = Collections.synchronizedList(new ArrayList<>());
-        List<Integer> list = new CopyOnWriteArrayList<>();
+        //List<Integer> list = new CopyOnWriteArrayList<>();
         list.add(2);
     }
 }

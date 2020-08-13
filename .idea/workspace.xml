@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb61a584-699c-4b9f-9288-dfed5207e010" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/tools.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSourcesLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSourcesLearn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSourcesLearn/META-INF/JavaSourcesLearn.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/StrictMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/StrictMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/AbstractStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/AbstractStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/String.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/lang/Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/net/ServerSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/net/ServerSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/util/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/util/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/Executors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/Executors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/locks/AbstractOwnableSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/locks/AbstractOwnableSynchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/locks/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/source/java/util/concurrent/locks/ReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/test/arraylist/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/test/arraylist/TestArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/test/inet/TestInet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/test/inet/TestInet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/carroll/test/string/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/test/string/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carroll/test/thread/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carroll/test/thread/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +44,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\developerkits\apache-maven-3.6.1\localRepository" />
-        <option name="mavenHome" value="D:/developerkits/apache-maven-3.6.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../developerkits/apache-maven-3.6.1" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -48,21 +57,26 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/developerkits/jdk1.8/lib/tools.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/carroll/source" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.TestString">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\git_project\JavaSourcesLearn\src\com\carroll\test\lock" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StackDemo1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.carroll.Main" />
       <module name="JavaSourcesLearn" />
@@ -76,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.carroll.test.arraylist.TestArrayList" />
+    <configuration name="StackDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carroll.test.stack.StackDemo1" />
       <module name="JavaSourcesLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.carroll.test.arraylist.*" />
+          <option name="PATTERN" value="com.carroll.test.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.carroll.test.hashmap.TestHashMap" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carroll.test.lock.Test3" />
       <module name="JavaSourcesLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.carroll.test.hashmap.*" />
+          <option name="PATTERN" value="com.carroll.test.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.carroll.test.hashset.testHashSet" />
+    <configuration name="arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carroll.test.array.arr" />
       <module name="JavaSourcesLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.carroll.test.hashset.*" />
+          <option name="PATTERN" value="com.carroll.test.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,23 +142,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.testHashSet" />
-      <item itemvalue="Application.TestHashMap" />
-      <item itemvalue="Application.TestArrayList" />
+      <item itemvalue="Application.Test3" />
+      <item itemvalue="Application.arr" />
       <item itemvalue="Application.TestString" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StackDemo1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestString" />
+        <item itemvalue="Application.StackDemo1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestHashMap" />
-        <item itemvalue="Application.testHashSet" />
-        <item itemvalue="Application.TestArrayList" />
+        <item itemvalue="Application.TestString" />
+        <item itemvalue="Application.arr" />
+        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -181,68 +207,93 @@
       <workItem from="1592725127245" duration="869000" />
       <workItem from="1592832043751" duration="23000" />
       <workItem from="1592932216785" duration="967000" />
+      <workItem from="1592933303293" duration="4000" />
+      <workItem from="1592960612254" duration="836000" />
+      <workItem from="1593015503396" duration="2278000" />
+      <workItem from="1593652634942" duration="2868000" />
+      <workItem from="1593667128811" duration="13000" />
+      <workItem from="1593915317340" duration="1813000" />
+      <workItem from="1593950955399" duration="67000" />
+      <workItem from="1594034699999" duration="1984000" />
+      <workItem from="1594088175347" duration="6650000" />
+      <workItem from="1594295005157" duration="400000" />
+      <workItem from="1594454579291" duration="306000" />
+      <workItem from="1594458009411" duration="61000" />
+      <workItem from="1594606724443" duration="1457000" />
+      <workItem from="1594638235799" duration="3780000" />
+      <workItem from="1595553239901" duration="61000" />
+      <workItem from="1595553315545" duration="707000" />
+      <workItem from="1595726133546" duration="12000" />
+      <workItem from="1595819429521" duration="1213000" />
+      <workItem from="1595902301207" duration="2379000" />
+      <workItem from="1595930426392" duration="4000" />
+      <workItem from="1596423875015" duration="1527000" />
+      <workItem from="1596425646253" duration="761000" />
+      <workItem from="1596636338580" duration="1417000" />
+      <workItem from="1596682919994" duration="14000" />
+      <workItem from="1597306597079" duration="1313000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#Inspections" timestamp="1586414810214">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596424432589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1586414810214" />
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586924764451">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596424432589" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1594624244434">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586924764451" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594624244434" />
     <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1592376202666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1592376202666" />
-    <state x="609" y="178" key="FileChooserDialogImpl" timestamp="1592377121420">
+    <state x="569" y="310" key="DetectedRootsChooserDialog" timestamp="1596424600237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="609" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592377121420" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592377249874">
+    <state x="569" y="310" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1596424600237" />
+    <state x="609" y="178" key="FileChooserDialogImpl" timestamp="1596424742078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592377249874" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592377249873">
+    <state x="609" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596424742078" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596643528921">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592377249873" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592377249873">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596643528921" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596643528921">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592377249873" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592377249874">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596643528921" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596643528920">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592377249874" />
-    <state width="1493" height="228" key="GridCell.Tab.1.bottom" timestamp="1586943761867">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596643528920" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596643528921">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586943761867" />
-    <state width="1493" height="228" key="GridCell.Tab.1.center" timestamp="1586943761866">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596643528921" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593663688602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586943761866" />
-    <state width="1493" height="228" key="GridCell.Tab.1.left" timestamp="1586943761866">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593663688602" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593663688602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586943761866" />
-    <state width="1493" height="228" key="GridCell.Tab.1.right" timestamp="1586943761866">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593663688602" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593663688602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586943761866" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1592377126574">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593663688602" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593663688602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592377126574" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587034869910">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593663688602" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1596424744679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587034869910" />
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596424744679" />
   </component>
 </project>

@@ -286,6 +286,7 @@ import sun.misc.Unsafe;
  * @since 1.5
  * @author Doug Lea
  */
+//AQS
 public abstract class AbstractQueuedSynchronizer
     extends AbstractOwnableSynchronizer
     implements java.io.Serializable {
@@ -296,6 +297,7 @@ public abstract class AbstractQueuedSynchronizer
      * Creates a new {@code AbstractQueuedSynchronizer} instance
      * with initial synchronization state of zero.
      */
+    //无参构造方法
     protected AbstractQueuedSynchronizer() { }
 
     /**
@@ -303,7 +305,7 @@ public abstract class AbstractQueuedSynchronizer
      *
      * <p>The wait queue is a variant of a "CLH" (Craig, Landin, and
      * Hagersten) lock queue. CLH locks are normally used for
-     * spinlocks.  We instead use them for blocking synchronizers, but
+     * spinlocks(自旋锁).  We instead use them for blocking synchronizers, but
      * use the same basic tactic of holding some of the control
      * information about a thread in the predecessor of its node.  A
      * "status" field in each node keeps track of whether a thread
@@ -561,6 +563,7 @@ public abstract class AbstractQueuedSynchronizer
      * @return {@code true} if successful. False return indicates that the actual
      *         value was not equal to the expected value.
      */
+    //CAS  比较并交换
     protected final boolean compareAndSetState(int expect, int update) {
         // See below for intrinsics setup to support this
         return unsafe.compareAndSwapInt(this, stateOffset, expect, update);

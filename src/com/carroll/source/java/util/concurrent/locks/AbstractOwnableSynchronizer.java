@@ -61,10 +61,11 @@ public abstract class AbstractOwnableSynchronizer
     /**
      * The current owner of exclusive mode synchronization.
      */
+    //变量被transient修饰，变量将不再是对象持久化的一部分，该变量内容在序列化后无法获得访问。
     private transient Thread exclusiveOwnerThread;
 
     /**
-     * Sets the thread that currently owns exclusive access.
+     * Sets the thread that currently owns exclusive(独有的；排外的；专一的) access.
      * A {@code null} argument indicates that no thread owns access.
      * This method does not otherwise impose any synchronization or
      * {@code volatile} field accesses.

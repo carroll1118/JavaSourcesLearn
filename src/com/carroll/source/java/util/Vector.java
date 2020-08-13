@@ -563,6 +563,18 @@ public class Vector<E>
         }
         int j = elementCount - index - 1;
         if (j > 0) {
+            /*
+               public static void arraycopy(Object src,
+                             int srcPos,
+                             Object dest,
+                             int destPos,
+                             int length)
+                src - 源数组。
+                srcPos - 源数组中的起始位置。
+                dest - 目标数组。
+                destPos - 目的地数据中的起始位置。
+                length - 要复制的数组元素的数量。
+            */
             System.arraycopy(elementData, index + 1, elementData, index, j);
         }
         elementCount--;

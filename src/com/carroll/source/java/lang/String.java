@@ -959,7 +959,7 @@ public final class String
     }
 
     /**
-     * Compares this string to the specified object.  The result is {@code
+     * Compares this string to the specified(规定的；详细说明的) object.  The result is {@code
      * true} if and only if the argument is not {@code null} and is a {@code
      * String} object that represents the same sequence of characters as this
      * object.
@@ -974,9 +974,11 @@ public final class String
      * @see  #equalsIgnoreCase(String)
      */
     public boolean equals(Object anObject) {
+        //比较值是否相同  如果值相同，直接返回True
         if (this == anObject) {
             return true;
         }
+        //值不相同的情况下   比较内容
         if (anObject instanceof String) {
             String anotherString = (String)anObject;
             int n = value.length;

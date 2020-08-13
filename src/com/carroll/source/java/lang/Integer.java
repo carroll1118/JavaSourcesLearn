@@ -1231,6 +1231,7 @@ public final class Integer extends Number implements Comparable<Integer> {
      * @since 1.7
      */
     public static int compare(int x, int y) {
+        //  (x < y) ? -1 : ((x == y) ? 0 : 1);  优秀的判断！！！
         return (x < y) ? -1 : ((x == y) ? 0 : 1);
     }
 

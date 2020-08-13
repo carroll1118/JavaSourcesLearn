@@ -228,6 +228,10 @@ class ServerSocket implements java.io.Closeable {
      */
     public ServerSocket(int port, int backlog, InetAddress bindAddr) throws IOException {
         setImpl();
+        /*
+        * The port must be between 0 and 65535
+        * 端口号是一个16位二进制表示的整数（0-65535）
+        * */
         if (port < 0 || port > 0xFFFF)
             throw new IllegalArgumentException(
                        "Port value out of range: " + port);

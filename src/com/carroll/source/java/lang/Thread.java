@@ -1743,6 +1743,7 @@ class Thread implements Runnable {
         /**
          * Thread state for a thread which has not yet started.
          */
+        //创建
         NEW,
 
         /**
@@ -1751,6 +1752,7 @@ class Thread implements Runnable {
          * be waiting for other resources from the operating system
          * such as processor.
          */
+        //可运行
         RUNNABLE,
 
         /**
@@ -1760,6 +1762,7 @@ class Thread implements Runnable {
          * reenter a synchronized block/method after calling
          * {@link Object#wait() Object.wait}.
          */
+        //阻塞
         BLOCKED,
 
         /**
@@ -1781,6 +1784,7 @@ class Thread implements Runnable {
          * that object. A thread that has called <tt>Thread.join()</tt>
          * is waiting for a specified thread to terminate.
          */
+        //无限等待
         WAITING,
 
         /**
@@ -1795,12 +1799,14 @@ class Thread implements Runnable {
          *   <li>{@link LockSupport#parkUntil LockSupport.parkUntil}</li>
          * </ul>
          */
+        //有限等待
         TIMED_WAITING,
 
         /**
          * Thread state for a terminated thread.
          * The thread has completed execution.
          */
+        //终止
         TERMINATED;
     }
 

@@ -130,6 +130,7 @@ public class ReentrantLock implements Lock, java.io.Serializable {
             final Thread current = Thread.currentThread();
             int c = getState();
             if (c == 0) {
+                //CAS  比较并交换
                 if (compareAndSetState(0, acquires)) {
                     setExclusiveOwnerThread(current);
                     return true;
@@ -264,6 +265,7 @@ public class ReentrantLock implements Lock, java.io.Serializable {
      * @param fair {@code true} if this lock should use a fair ordering policy
      */
     public ReentrantLock(boolean fair) {
+        //根据fair的参数判断创建 公平锁(FairSync) 还是 非公平锁(NonfairSync)
         sync = fair ? new FairSync() : new NonfairSync();
     }
 

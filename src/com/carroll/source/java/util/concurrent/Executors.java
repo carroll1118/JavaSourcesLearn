@@ -72,14 +72,14 @@ public class Executors {
 
     /**
      * Creates a thread pool that reuses a fixed number of threads
-     * operating off a shared unbounded queue.  At any point, at most
+     * operating(操作) off a shared unbounded(无边界) queue.  At any point, at most
      * {@code nThreads} threads will be active processing tasks.
      * If additional tasks are submitted when all threads are active,
      * they will wait in the queue until a thread is available.
-     * If any thread terminates due to a failure during execution
+     * If any thread terminates(结束，终止) due to a failure during execution
      * prior to shutdown, a new one will take its place if needed to
-     * execute subsequent tasks.  The threads in the pool will exist
-     * until it is explicitly {@link ExecutorService#shutdown shutdown}.
+     * execute subsequent(随后的) tasks.  The threads in the pool will exist
+     * until it is explicitly(明确地；明白地) {@link ExecutorService#shutdown shutdown}.
      *
      * @param nThreads the number of threads in the pool
      * @return the newly created thread pool
@@ -92,19 +92,19 @@ public class Executors {
     }
 
     /**
-     * Creates a thread pool that maintains enough threads to support
-     * the given parallelism level, and may use multiple queues to
-     * reduce contention. The parallelism level corresponds to the
-     * maximum number of threads actively engaged in, or available to
-     * engage in, task processing. The actual number of threads may
-     * grow and shrink dynamically. A work-stealing pool makes no
+     * Creates a thread pool that maintains(维持；继续) enough threads to support
+     * the given parallelism(平行；类似) level, and may use multiple(多重的；多样的) queues to
+     * reduce contention(争论，争辩；争夺). The parallelism level corresponds to the
+     * maximum number of threads actively engaged(占线的 忙碌的) in, or available to
+     * engage in, task processing. The actual(真实的，实际的) number of threads may
+     * grow and shrink(缩小) dynamically(动态地). A work-stealing pool makes no
      * guarantees about the order in which submitted tasks are
      * executed.
      *
      * @param parallelism the targeted parallelism level
      * @return the newly created thread pool
      * @throws IllegalArgumentException if {@code parallelism <= 0}
-     * @since 1.8
+     * @since 1.8   JDK1.8 加入了newWorkStealingPool线程池
      */
     public static ExecutorService newWorkStealingPool(int parallelism) {
         return new ForkJoinPool

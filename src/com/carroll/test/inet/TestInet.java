@@ -1,5 +1,7 @@
 package com.carroll.test.inet;
 
+import java.io.FileReader;
+import java.io.Reader;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
@@ -10,6 +12,8 @@ import java.net.UnknownHostException;
  */
 public class TestInet {
     public static void main(String[] args) throws Exception {
-        InetAddress address = InetAddress.getLocalHost();
+        //InetAddress address = InetAddress.getLocalHost();
+        Reader fr = new FileReader("read.txt");
+        fr.read();
     }
 }

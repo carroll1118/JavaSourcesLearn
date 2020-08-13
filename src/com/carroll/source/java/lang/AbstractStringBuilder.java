@@ -118,6 +118,9 @@ abstract class AbstractStringBuilder implements Appendable, CharSequence {
      * If {@code minimumCapacity} is non positive due to numeric
      * overflow, this method throws {@code OutOfMemoryError}.
      */
+    /*
+    * StringBuilder 扩容
+    * */
     private void ensureCapacityInternal(int minimumCapacity) {
         // overflow-conscious code
         if (minimumCapacity - value.length > 0) {
@@ -670,7 +673,7 @@ abstract class AbstractStringBuilder implements Appendable, CharSequence {
         }
         int appendedLength = (i < 0) ? Integer.stringSize(-i) + 1
                                      : Integer.stringSize(i);
-        int spaceNeeded = count + appendedLength;
+        int spaceNeeded = count + appendedLength;  //线程不安全的原因
         ensureCapacityInternal(spaceNeeded);
         Integer.getChars(i, spaceNeeded, value);
         count = spaceNeeded;
